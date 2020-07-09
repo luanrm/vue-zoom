@@ -20,5 +20,5 @@ npm run build
 npm run lint
 ```
 
-### Poposito
+### Proposito
 Integrar o zoom e o vue.
