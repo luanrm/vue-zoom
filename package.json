@@ -11,6 +11,13 @@
     "@zoomus/websdk": "^1.7.10",
     "axios": "^0.19.2",
     "core-js": "^3.6.5",
+    "jquery": "^3.4.1",
+    "lodash": "^4.17.14",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {

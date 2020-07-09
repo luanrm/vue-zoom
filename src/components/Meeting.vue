@@ -1,12 +1,15 @@
 <template>
-  <div>
-    {{msg}}
-  </div>
+  <div>{{msg}}</div>
 </template>
 
 <script>
 import { ZoomMtg } from "@zoomus/websdk";
 import axios from "axios";
+
+const zoomJSLib='https://source.zoom.us/1.7.9/lib';
+const zoomJSAVLib='/av'
+
+ZoomMtg.setZoomJSLib(zoomJSLib, zoomJSAVLib);
 
 ZoomMtg.preLoadWasm();
 ZoomMtg.prepareJssdk();
@@ -33,6 +36,7 @@ export default {
   },
   methods: {
     startMeeting(signature) {
+
       ZoomMtg.init({
         leaveUrl: this.leaveUrl,
         isSupportAV: true,
