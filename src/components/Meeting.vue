@@ -21,11 +21,11 @@ export default {
   },
   data() {
     return {
-      signatureEndpoint: "http://localhost:4000/",
+      signatureEndpoint: "https://radiant-retreat-49943.herokuapp.com/",
       apiKey: "Ym1CE8fuTpycvEi9eW7OvA",
       meetingNumber: 3392892467,
       leaveUrl: "http://localhost:8080/",
-      userName: "Firstname Lastname",
+      userName: "Nome de teste",
       userEmail: "", // required for webinar
       passWord: "802676", // if required
       role: 0 // 1 for host; 0 for attendee or webinar
